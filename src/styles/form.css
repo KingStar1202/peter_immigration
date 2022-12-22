@@ -1,0 +1,19 @@
+.card-box span {
+  transition: 0.2s;
+}
+.card-box input:focus ~ span {
+  color: #919eab;
+  transform: translateX(10px) translateY(6px);
+  padding: 0 14px;
+  font-size: 0.8em;
+}
+.card-box input:hover,.card-box select:hover {
+  border: 1px solid #0573e180;
+}
+.card-box input:focus,.card-box select:focus  {
+    border: 1px solid #0573e180;
+  box-shadow: 0 0 0 3px hsla(210, 96%, 45%, 0.251), 0px 1px 1px 0 hsla(210, 96%, 45%, 0.257);
+}
+.card-box input::placeholder {
+  color: #fff;
+}

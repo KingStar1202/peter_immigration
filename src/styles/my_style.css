@@ -1,0 +1,7 @@
+.hum-menu{
+display: block;
+}
+.hum-menu a{
+display: flex;
+align-items: center;
+}

@@ -1,0 +1,132 @@
+.css-198c92t {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.immigration__pre-loader,
+.immigration__pre-loader__quick {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url(../images/service/drew-unsplash.jpg); */
+  background-size: cover;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* first logo bg  */
+.immigration__pre-loader__intro,
+.immigration__pre-loader__wrap {
+  display: none;
+}
+
+.immigration__pre-loader__wrap {
+  width: 100%;
+  padding: 0 50px;
+}
+.immigration__pre-loader__text {
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+.immigration__pre-loader__copy {
+  font-family: Bugatti Display Regular, sans-serif, Arial;
+  font-size: 80px;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  color: #ff0800;
+  letter-spacing: 1.5px;
+}
+/* second bg  */
+.immigration__progress_loader {
+  margin: 0 auto;
+  left: 0;
+  text-align: center;
+}
+.immigration__progress_loader__info {
+  font-family: "Bugatti Monospace Regular";
+  color: #4b4b4b;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.immigration__progress_loader-wrapper {
+  width: 900px;
+  height: 5px;
+  max-width: 100%;
+  background: gray;
+  display: inline-flex;
+  margin: 0 auto;
+}
+.immigration__progress_loader__loading {
+  width: 0;
+  background-color: #ff0800;
+}
+.immigration__pre-loader__intro,
+.immigration__pre-loader__wrap {
+  display: none;
+}
+
+.immigration__pre-loader__intro {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.immigration__pre-loader__heading {
+  color: #ff0800;
+  font-size: 50px;
+  text-align: center;
+  transform: scale(0);
+}
+/* video  */
+.contextMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.customContextmenuArea1ListWrapper {
+  background-color: #fff;
+}
+.optionsList {
+  padding: 12px;
+  min-width: 107px;
+  border-radius: 4px;
+}
+.customContextmenuArea1ListItem {
+  list-style-type: disclosure-closed;
+}
+
+.optionListItem {
+  padding: 4px;
+  border-radius: 3px;
+  list-style-type: none;
+  color: #ff0038;
+}
+.customContextmenuArea1ListItem {
+  list-style-type: disclosure-closed;
+}
+
+.optionListItem {
+  padding: 4px;
+  border-radius: 3px;
+  list-style-type: none;
+  color: #ff0038;
+}
